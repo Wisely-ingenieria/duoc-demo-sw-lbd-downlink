@@ -86,9 +86,9 @@ Para permitir que la función Lambda publique en un tópico de AWS IoT, debes ag
 
 La función Lambda acepta los siguientes parámetros a través de `queryStringParameters` o el cuerpo de la solicitud (`body`):
 
-- `alert`: El mensaje de alerta a enviar.
-- `interval`: El intervalo de tiempo para la alerta.
-- `device_id`: El ID del dispositivo al que se envía la alerta.
+- `alert`: El nuevo umbral de alerta.
+- `interval`: El intervalo de tiempo entre de datos.
+- `device_id`: El ID del dispositivo al que se envía el mensaje.
 
 ## Pruebas
 
